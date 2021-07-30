@@ -24,7 +24,7 @@ app.use(express.static("public"));
 //creates db when server is started up in terminal
 
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+  process.env.MONGODB_URI || 'mongodb://localhost/workout-tracker-88',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
